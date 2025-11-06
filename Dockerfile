@@ -10,7 +10,17 @@ RUN apk add --no-cache \
     make \
     g++ \
     git \
-    imagemagick
+    imagemagick \
+    pkg-config \
+    cairo-dev \
+    jpeg-dev \
+    pango-dev \
+    musl-dev \
+    giflib-dev \
+    pixman-dev \
+    pangomm-dev \
+    libjpeg-turbo-dev \
+    freetype-dev
 
 WORKDIR /app
 
