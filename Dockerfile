@@ -1,6 +1,7 @@
 # ===========================================
 # Pony Town - Multi-stage Docker Build
 # ===========================================
+# Force cache rebuild - deployment fix v2
 # Stage 1: Build Stage
 FROM node:22-alpine AS builder
 
