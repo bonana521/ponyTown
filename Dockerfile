@@ -18,7 +18,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies (with legacy peer deps for Angular compatibility)
-RUN npm ci --legacy-peer-deps --only=production && \
+RUN npm install --legacy-peer-deps --only=production && \
     npm cache clean --force
 
 # Copy source code
