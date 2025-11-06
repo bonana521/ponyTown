@@ -16,7 +16,6 @@
 	"strictNullChecks": false,
 	"strictFunctionTypes": false,
 	"noImplicitThis": false,
-	"suppressImplicitAnyIndexErrors": true,
 	"noLib": false,
 		"experimentalDecorators": true,
 		"emitDecoratorMetadata": true,
