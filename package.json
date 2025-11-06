@@ -12,7 +12,7 @@
     "sw-generate": "workbox generateSW workbox-config.js",
     "sw-uglify": "uglifyjs build/sw.js -o build/sw.min.js",
     "sw": "npm run sw-generate && npm run sw-uglify",
-    "ts": "tsc --rootDir src/ts --outDir src/scripts --pretty",
+    "ts": "tsc --project tsconfig.json --skipLibCheck --pretty --noEmitOnError false",
     "ts-watch": "npm run ts -- --watch",
     "ts-cov": "npm run ts -- --target es5",
     "ts-cov-watch": "npm run ts -- --target es5 --watch",
