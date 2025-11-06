@@ -21,7 +21,6 @@ build/
 .env
 .env.local
 .env.*.local
-config.json
 
 # Git
 .git/
