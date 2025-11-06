@@ -64,6 +64,7 @@ COPY --from=builder /app/favicons ./favicons
 # Copy essential files
 COPY --from=builder /app/pony-town.js ./
 COPY --from=builder /app/package.json ./
+COPY --from=builder /app/config.json ./
 
 # Create non-root user
 RUN addgroup -g 1001 -S nodejs && \
