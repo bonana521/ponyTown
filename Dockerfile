@@ -11,7 +11,7 @@ RUN apk add --no-cache \
     g++ \
     git \
     imagemagick \
-    pkg-config \
+    pkgconf \
     cairo-dev \
     jpeg-dev \
     pango-dev \
